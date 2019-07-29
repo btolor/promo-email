@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+}
+* body .email-body {
+  width: 100%;
+  margin: 0 auto;
+  background: black;
+}
+* body .email-body .email-container {
+  width: 600px;
+  margin: 0 auto;
+  background: white;
+}
+* body .email-body .email-container .email {
+  width: 100%;
+  margin: 0 auto;
+}
+* body .email-body .email-container .email .view-online-row td {
+  padding: 0 0 0 0.5%;
+}
+* body .email-body .email-container .email .view-online-row td a {
+  font-family: sans-serif;
+  color: gray;
+  font-size: 0.8vw;
+  font-weight: 400;
+  text-decoration-color: darkslategrey;
+}
+* body .email-body .email-container .email .title-row td {
+  padding-left: 1%;
+}
+* body .email-body .email-container .email .title-row td img {
+  width: 25%;
+}
+* body .email-body .email-container .email .menu-row td {
+  border-bottom: 1px solid lightgray;
+  text-align: center;
+  padding: 0 0 3% 0;
+}
+* body .email-body .email-container .email .menu-row td a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: grey;
+  font-size: 1.5vw;
+  font-weight: 400;
+  border-right: 1px solid lightgray;
+  padding: 0 2%;
+}
+* body .email-body .email-container .email .menu-row td #clearance {
+  border-right: none;
+  color: red;
+}
+* body .email-body .email-container .email .home-savings-row td, * body .email-body .email-container .email .home-savings-row a {
+  padding: 1.5% 0 0 0;
+  text-decoration: none;
+}
+* body .email-body .email-container .email .home-savings-row td #home-title, * body .email-body .email-container .email .home-savings-row a #home-title {
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  font-size: 1.4vw;
+  font-weight: 700;
+  background-color: #002f5d;
+  padding: 1% 0;
+  text-transform: uppercase;
+}
+* body .email-body .email-container .email .home-savings-row td .home-container, * body .email-body .email-container .email .home-savings-row a .home-container {
+  background-color: #d8dbe4;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 3%;
+}
+* body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .left-sec, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .left-sec {
+  width: 55%;
+}
+* body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .left-sec .left, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .left-sec .left {
+  width: 100%;
+  margin: 0 auto;
+}
+* body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .left-sec .left tr, * body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .left-sec .left td, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .left-sec .left tr, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .left-sec .left td {
+  padding: 8% 0 0 20%;
+}
+* body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .left-sec .left tr h3, * body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .left-sec .left td h3, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .left-sec .left tr h3, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .left-sec .left td h3 {
+  font-family: sans-serif;
+  color: #002f5d;
+  font-size: 1.5vw;
+  font-weight: 900;
+}
+* body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .left-sec .left tr h1, * body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .left-sec .left td h1, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .left-sec .left tr h1, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .left-sec .left td h1 {
+  font-family: sans-serif;
+  color: #002f5d;
+  font-size: 8vw;
+  font-weight: 900;
+  line-height: 0.8;
+}
+* body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .left-sec .left tr span, * body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .left-sec .left td span, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .left-sec .left tr span, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .left-sec .left td span {
+  font-size: 3vw;
+}
+* body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .left-sec .left tr #promo, * body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .left-sec .left td #promo, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .left-sec .left tr #promo, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .left-sec .left td #promo {
+  color: black;
+  padding: 5% 0 0 0;
+}
+* body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .right-sec, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .right-sec {
+  width: 45%;
+}
+* body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .right-sec .right, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .right-sec .right {
+  width: 80%;
+  margin: 0 auto;
+}
+* body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .right-sec .right tr, * body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .right-sec .right td, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .right-sec .right tr, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .right-sec .right td {
+  padding: 10% 0 0 0;
+}
+* body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .right-sec .right tr h6, * body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .right-sec .right td h6, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .right-sec .right tr h6, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .right-sec .right td h6 {
+  font-family: sans-serif;
+  color: black;
+  font-size: 0.8vw;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+* body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .right-sec .right tr #excludes, * body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .right-sec .right td #excludes, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .right-sec .right tr #excludes, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .right-sec .right td #excludes {
+  font-family: sans-serif;
+  color: black;
+  font-size: 0.9vw;
+  font-weight: 900;
+  padding: 10% 0;
+}
+* body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .right-sec .right tr input, * body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .right-sec .right td input, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .right-sec .right tr input, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .right-sec .right td input {
+  font-family: sans-serif;
+  color: white;
+  font-size: 1vw;
+  font-weight: 900;
+  background-color: #002f5d;
+  text-transform: uppercase;
+  border: none;
+  padding: 6% 12%;
+}
+* body .email-body .email-container .email .home-menu {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+* body .email-body .email-container .email .home-menu a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: black;
+  font-size: 1.2vw;
+  font-weight: 500;
+  background-color: #f0f0f0;
+  margin: 0 0.5%;
+  padding: 4%;
+  width: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */
