@@ -27,7 +27,7 @@
                         td
                             border-bottom: 1px solid lightgray
                             text-align: center
-                            padding: 0 0 3% 0
+                            padding: 0 0 2% 0
                             a
                                 text-decoration: none
                                 text-transform: uppercase
@@ -148,6 +148,67 @@
                                 text-decoration: none
                                 img 
                                     margin: -1% 0 -2%
-
+                    .luggage-savings-row 
+                        td,a
+                            padding: 1.5% 0 0 0 
+                            text-decoration: none
+                            #luggage-title
+                                text-align: center
+                                +text(sans-serif,white,1.4vw,700)
+                                background-color: $green
+                                padding: 1% 0
+                                text-transform: uppercase
+                            .luggage-container
+                                background-color: $fifty-off-bg
+                                +center(100%,0 auto)
+                                padding-bottom: 3%
+                                #luggage-coupon
+                                    .left-sec
+                                        width: 55%
+                                        .left
+                                            +center(100%,0 auto)
+                                            tr,td 
+                                                padding: 8% 0 0 20%
+                                                h3
+                                                    +text(sans-serif,$green,1.5vw,900)
+                                                h1
+                                                    +text(sans-serif,$green,8vw,900)
+                                                    line-height: .8
+                                                span
+                                                    font-size: 2vw
+                                                #promo
+                                                    color: black
+                                                    padding: 5% 0 0 0
+                                    .right-sec
+                                        width: 45%
+                                        .right
+                                            +center(80%,0 auto)
+                                            tr,td 
+                                                padding: 10% 0 0 0
+                                                h6
+                                                    +text(sans-serif,black,.8vw,900)
+                                                    text-transform: uppercase
+                                                #excludes
+                                                    +text(sans-serif,black,.9vw,900)
+                                                    padding: 7% 0
+                                                    line-height: 2
+                                                input
+                                                    +text(sans-serif,white,1vw,900)
+                                                    background-color: $green
+                                                    text-transform: uppercase
+                                                    border: none
+                                                    padding: 6% 12%
+                    .amazon-returns
+                        td
+                            padding: 4% 0 0 0
+                    .free-shipping
+                        td 
+                            a
+                                text-decoration: none
+                                img 
+                                    +center(100%, -1% auto)
+                    .app-row
+                        background: $gray-bg
+                                            
 
                             
