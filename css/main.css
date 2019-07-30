@@ -7,7 +7,7 @@
   background: black;
 }
 * body .email-body .email-container {
-  width: 600px;
+  width: 640px;
   margin: 0 auto;
   background: white;
 }
@@ -137,19 +137,69 @@
 * body .email-body .email-container .email .home-menu {
   width: 100%;
   margin: 0 auto;
-  text-align: center;
 }
-* body .email-body .email-container .email .home-menu a {
-  text-transform: uppercase;
+* body .email-body .email-container .email .home-menu td {
+  padding: 0.3% 0;
+}
+* body .email-body .email-container .email .home-menu td a {
   text-decoration: none;
-  font-family: sans-serif;
-  color: black;
-  font-size: 1.2vw;
-  font-weight: 500;
-  background-color: #f0f0f0;
-  margin: 0 0.5%;
-  padding: 4%;
-  width: 100%;
+}
+* body .email-body .email-container .email .home-menu td a .inside-link {
+  margin-left: -0.6%;
+}
+* body .email-body .email-container .email .home-menu td a .outside-link {
+  margin-left: -0.675%;
+}
+* body .email-body .email-container .email .summer-row td a {
+  text-decoration: none;
+}
+* body .email-body .email-container .email .appliance-row td a {
+  text-decoration: none;
+}
+* body .email-body .email-container .email .appliance-row td a img {
+  margin-top: -1%;
+}
+* body .email-body .email-container .email .backtoschool td a {
+  text-decoration: none;
+}
+* body .email-body .email-container .email .backtoschool td a img {
+  margin-top: -1%;
+}
+* body .email-body .email-container .email .tshirts-row td a {
+  text-decoration: none;
+}
+* body .email-body .email-container .email .tshirts-row td a img {
+  margin-top: -1%;
+}
+* body .email-body .email-container .email .jeans-row td a {
+  text-decoration: none;
+}
+* body .email-body .email-container .email .jeans-row td a img {
+  margin-top: -1%;
+}
+* body .email-body .email-container .email .kids-row td a {
+  text-decoration: none;
+}
+* body .email-body .email-container .email .kids-row td a img {
+  margin-top: -1%;
+}
+* body .email-body .email-container .email .shoe-sale1 td a {
+  text-decoration: none;
+}
+* body .email-body .email-container .email .shoe-sale1 td a img {
+  margin-top: -1%;
+}
+* body .email-body .email-container .email .shoe-sale2 td a {
+  text-decoration: none;
+}
+* body .email-body .email-container .email .shoe-sale2 td a img {
+  margin-top: -1%;
+}
+* body .email-body .email-container .email .fine-print td a {
+  text-decoration: none;
+}
+* body .email-body .email-container .email .fine-print td a img {
+  margin: -1% 0 -2%;
 }
 
 /*# sourceMappingURL=main.css.map */
