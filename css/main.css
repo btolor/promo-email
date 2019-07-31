@@ -4,7 +4,6 @@
 * body .email-body {
   width: 100%;
   margin: 0 auto;
-  background: black;
 }
 * body .email-body .email-container {
   width: 640px;
@@ -298,6 +297,90 @@
 }
 * body .email-body .email-container .email .app-row {
   background: #f0f0f0;
+}
+* body .email-body .email-container .email .social-media {
+  background: #f0f0f0;
+}
+* body .email-body .email-container .email .social-media td {
+  padding: 1.5% 0;
+  text-align: center;
+}
+* body .email-body .email-container .email .social-media td a {
+  text-decoration: none;
+  color: #565656;
+  font-size: 2vw;
+  padding: 0 3.5%;
+}
+* body .email-body .email-container .email .footer td {
+  padding: 1% 0;
+  font-family: sans-serif;
+  color: gray;
+  font-size: 0.8vw;
+  font-weight: 400;
+}
+* body .email-body .email-container .email .footer td #details-title {
+  font-family: sans-serif;
+  color: gray;
+  font-size: 0.8vw;
+  font-weight: 700;
+  padding-left: 1%;
+}
+* body .email-body .email-container .email .footer td #p1 {
+  padding: 4% 0 4% 2%;
+}
+* body .email-body .email-container .email .footer td #p1 span {
+  font-weight: 700;
+}
+* body .email-body .email-container .email .footer td #p2 {
+  padding: 2% 0 3% 2%;
+  font-weight: 700;
+}
+* body .email-body .email-container .email .footer td #p3 {
+  padding: 0 0 4% 2%;
+}
+* body .email-body .email-container .email .footer td #p3 span {
+  font-weight: 700;
+}
+* body .email-body .email-container .email .footer td #p4 {
+  padding: 4% 0 4% 2%;
+}
+* body .email-body .email-container .email .footer td #p4 span {
+  font-weight: 700;
+}
+* body .email-body .email-container .email .footer td #p5 {
+  padding: 4% 0 0 2%;
+  font-weight: 700;
+}
+* body .email-body .email-container .email .footer td #p6 {
+  padding: 0 0 4% 2%;
+}
+* body .email-body .email-container .email .footer td #p6 span {
+  font-weight: 700;
+}
+* body .email-body .email-container .email .footer td #p7 {
+  padding: 4% 0 7% 2%;
+}
+* body .email-body .email-container .email .footer td #p7 span {
+  font-weight: 700;
+}
+* body .email-body .email-container .email .footer td #p8 {
+  border-top: 1px solid gray;
+  padding: 3% 0;
+}
+* body .email-body .email-container .email .footer td #p8 a {
+  color: #565656;
+}
+* body .email-body .email-container .email .footer td #locate {
+  padding-bottom: 3%;
+}
+* body .email-body .email-container .email .footer td #locate a {
+  color: #565656;
+}
+* body .email-body .email-container .email .footer td #p9 {
+  padding-bottom: 3%;
+}
+* body .email-body .email-container .email .footer td #p9 a {
+  color: #565656;
 }
 
 /*# sourceMappingURL=main.css.map */
