@@ -1,33 +1,33 @@
 @import SASS-MIXINS
 @import variables
+@import responsive
 
 *
     margin: 0
     body
         .email-body
-            +center(100%,0 auto)
             .email-container
-                +center(640px, 0 auto)
                 background: white
                 .email
-                    +center(100%,0 auto)
                     .view-online-row
-                        td
+                        #view-online-td
                             padding: 0 0 0 .5%
-                            a
+                            .view-online-a
                                 +text(sans-serif,gray,0.8vw,400)
                                 text-decoration-color: darkslategrey
+                            #vo-span
+                                font-size: .8vw
                     .title-row 
-                        td
+                        #title-row-td
                             padding-left: 1%
-                            img
+                            #title-row-img
                                 width: 25%
                     .menu-row 
-                        td
+                        #menu-row-td
                             border-bottom: 1px solid lightgray
                             text-align: center
                             padding: 0 0 2% 0
-                            a
+                            .menu-row-a
                                 text-decoration: none
                                 text-transform: uppercase
                                 +text(sans-serif,grey,1.5vw,400)
