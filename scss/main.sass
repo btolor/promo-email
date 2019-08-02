@@ -32,59 +32,62 @@
                                 text-transform: uppercase
                                 +text(sans-serif,grey,1.5vw,400)
                                 border-right: 1px solid lightgray
-                                padding: 0 2%
+                                // padding: 0 2%
                             #clearance
                                 border-right: none 
                                 color: red
                     .home-savings-row 
-                        td,a
-                            padding: 1.5% 0 0 0 
-                            text-decoration: none
-                            #home-title
-                                text-align: center
-                                +text(sans-serif,white,1.4vw,700)
-                                background-color: $blue
-                                padding: 1% 0
-                                text-transform: uppercase
-                            .home-container
-                                background-color: $tweenty-off-bg
-                                +center(100%,0 auto)
-                                padding-bottom: 3%
-                                #home-coupon
-                                    .left-sec
-                                        width: 55%
-                                        .left
-                                            +center(100%,0 auto)
-                                            tr,td 
-                                                padding: 8% 0 0 20%
-                                                h3
-                                                    +text(sans-serif,$blue,1.5vw,900)
-                                                h1
-                                                    +text(sans-serif,$blue,8vw,900)
-                                                    line-height: .8
-                                                span
-                                                    font-size: 3vw
-                                                #promo
-                                                    color: black
-                                                    padding: 5% 0 0 0
-                                    .right-sec
-                                        width: 45%
-                                        .right
-                                            +center(80%,0 auto)
-                                            tr,td 
-                                                padding: 10% 0 0 0
-                                                h6
-                                                    +text(sans-serif,black,.8vw,900)
-                                                    text-transform: uppercase
-                                                #excludes
-                                                    +text(sans-serif,black,.9vw,900)
-                                                    padding: 10% 0
-                                                input
-                                                    +text(sans-serif,white,1vw,900)
-                                                    background-color: $blue
-                                                    text-transform: uppercase
-                                                    border: none
-                                                    padding: 6% 12%
+                        td
+                            padding-top: 1.9%
+                            a 
+                                text-decoration: none
+                                #home-title
+                                    text-align: center
+                                    +text(sans-serif,white,1.4vw,700)
+                                    background-color: $blue
+                                    padding: 1% 0
+                                    text-transform: uppercase
+                                .home-container
+                                    background-color: $tweenty-off-bg
+                                    +center(100%,0 auto)
+                                    padding-bottom: 3%
+                                    #home-coupon
+                                        .left-sec
+                                            width: 55%
+                                            .left
+                                                +center(100%,0 auto)
+                                                tr
+                                                    #home-left-td 
+                                                        padding: 8% 0 0 20%
+                                                        h3
+                                                            +text(sans-serif,$blue,1.5vw,900)
+                                                        h1
+                                                            +text(sans-serif,$blue,8vw,900)
+                                                            line-height: .8
+                                                        span
+                                                            font-size: 3vw
+                                                        #promo
+                                                            color: black
+                                                            padding: 5% 0 0 0
+                                        .right-sec
+                                            width: 45%
+                                            .right
+                                                +center(80%,0 auto)
+                                                tr 
+                                                    #home-right-td 
+                                                        padding: 10% 0 0 0
+                                                        h6
+                                                            +text(sans-serif,black,.8vw,900)
+                                                            text-transform: uppercase
+                                                        #excludes
+                                                            +text(sans-serif,black,.9vw,900)
+                                                            padding: 10% 0
+                                                        input
+                                                            +text(sans-serif,white,1vw,900)
+                                                            background-color: $blue
+                                                            text-transform: uppercase
+                                                            border: none
+                                                            padding: 6% 12%
                     .home-menu
                         +center(100%, 0 auto)  
                         td
@@ -148,55 +151,57 @@
                                 img 
                                     margin: -1% 0 -2%
                     .luggage-savings-row 
-                        td,a
-                            padding: 1.5% 0 0 0 
-                            text-decoration: none
-                            #luggage-title
-                                text-align: center
-                                +text(sans-serif,white,1.4vw,700)
-                                background-color: $green
-                                padding: 1% 0
-                                text-transform: uppercase
-                            .luggage-container
-                                background-color: $fifty-off-bg
-                                +center(100%,0 auto)
-                                padding-bottom: 3%
-                                #luggage-coupon
-                                    .left-sec
-                                        width: 55%
-                                        .left
-                                            +center(100%,0 auto)
-                                            tr,td 
-                                                padding: 8% 0 0 20%
-                                                h3
-                                                    +text(sans-serif,$green,1.5vw,900)
-                                                h1
-                                                    +text(sans-serif,$green,8vw,900)
-                                                    line-height: .8
-                                                span
-                                                    font-size: 2vw
-                                                #promo
-                                                    color: black
-                                                    padding: 5% 0 0 0
-                                    .right-sec
-                                        width: 45%
-                                        .right
-                                            +center(80%,0 auto)
-                                            tr,td 
-                                                padding: 10% 0 0 0
-                                                h6
-                                                    +text(sans-serif,black,.8vw,900)
-                                                    text-transform: uppercase
-                                                #excludes
-                                                    +text(sans-serif,black,.9vw,900)
-                                                    padding: 7% 0
-                                                    line-height: 2
-                                                input
-                                                    +text(sans-serif,white,1vw,900)
-                                                    background-color: $green
-                                                    text-transform: uppercase
-                                                    border: none
-                                                    padding: 6% 12%
+                        td
+                            a
+                                padding: 1.5% 0 0 0 
+                                text-decoration: none
+                                #luggage-title
+                                    text-align: center
+                                    +text(sans-serif,white,1.4vw,700)
+                                    background-color: $green
+                                    padding: 1% 0
+                                    text-transform: uppercase
+                                .luggage-container
+                                    background-color: $fifty-off-bg
+                                    +center(100%,0 auto)
+                                    padding-bottom: 3%
+                                    #luggage-coupon
+                                        .left-sec
+                                            width: 55%
+                                            .left
+                                                +center(100%,0 auto)
+                                                tr
+                                                    td 
+                                                        padding: 8% 0 0 20%
+                                                        h3
+                                                            +text(sans-serif,$green,1.5vw,900)
+                                                        h1
+                                                            +text(sans-serif,$green,8vw,900)
+                                                            line-height: .8
+                                                        span
+                                                            font-size: 2vw
+                                                        #promo
+                                                            color: black
+                                                            padding: 5% 0 0 0
+                                        .right-sec
+                                            width: 45%
+                                            .right
+                                                +center(80%,0 auto)
+                                                tr,td 
+                                                    padding: 10% 0 0 0
+                                                    h6
+                                                        +text(sans-serif,black,.8vw,900)
+                                                        text-transform: uppercase
+                                                    #excludes
+                                                        +text(sans-serif,black,.9vw,900)
+                                                        padding: 7% 0
+                                                        line-height: 2
+                                                    input
+                                                        +text(sans-serif,white,1vw,900)
+                                                        background-color: $green
+                                                        text-transform: uppercase
+                                                        border: none
+                                                        padding: 6% 12%
                     .amazon-returns
                         td
                             padding: 4% 0 0 0

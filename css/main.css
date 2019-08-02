@@ -13,51 +13,44 @@
     font-size: 1.8vw !important;
     padding: 0 4% !important;
   }
-}
-@media screen and (max-width: 960px) {
-  .email-container {
-    width: 641px;
-    margin: 0 auto;
-  }
-  .email-container .view-online-row #view-online-td {
-    padding: 1.5% 0 0 1% !important;
-  }
-  .email-container .view-online-row #view-online-td .view-online-a {
-    font-size: 1.1vw !important;
-  }
-  .email-container .view-online-row #view-online-td #vo-span {
-    font-size: 1.1vw !important;
-  }
-  .email-container .title-row #title-row-img {
-    height: 5% !important;
-  }
-  .email-container .menu-row-a {
+  .email-container #home-title {
     font-size: 2vw !important;
-    padding: 0 3% !important;
+    padding: 0.5% 0 !important;
   }
-}
-@media screen and (max-width: 641px) {
-  .email-container {
-    width: 100% !important;
-    margin: 0 auto !important;
+  .email-container .left-sec {
+    padding-top: 0 !important;
   }
-  .email-container .view-online-row #view-online-td {
-    padding: 2% 0 0 3% !important;
+  .email-container .left-sec #home-left-td {
+    padding: 6% 0 0 26% !important;
   }
-  .email-container .view-online-row #view-online-td .view-online-a {
-    font-size: 1.7vw !important;
+  .email-container .left-sec #home-left-td h3 {
+    font-size: 1.9vw !important;
   }
-  .email-container .view-online-row #view-online-td #vo-span {
-    font-size: 1.8vw !important;
+  .email-container .left-sec #home-left-td h1 {
+    font-size: 10vw !important;
+    line-height: 1 !important;
   }
-  .email-container .title-row {
-    padding-left: 0 !important;
+  .email-container .left-sec #home-left-td span {
+    font-size: 5vw !important;
   }
-  .email-container .title-row #title-row-img {
-    height: 4.5% !important;
+  .email-container #home-right-td {
+    padding-top: 4% !important;
   }
-  .email-container .menu-row-a {
-    font-size: 3vw !important;
+  .email-container #home-right-td #b-code {
+    width: 70% !important;
+  }
+  .email-container #home-right-td #pin-code {
+    font-size: 1vw !important;
+    padding-top: 0.8% !important;
+  }
+  .email-container #home-right-td #excludes {
+    padding: 8% 0 !important;
+    font-size: 1.1vw !important;
+    line-height: 1.8;
+  }
+  .email-container #home-right-td input {
+    padding: 6% 10% !important;
+    font-size: 1.5vw !important;
   }
 }
 * {
@@ -98,17 +91,18 @@
   font-size: 1.5vw;
   font-weight: 400;
   border-right: 1px solid lightgray;
-  padding: 0 2%;
 }
 * body .email-body .email-container .email .menu-row #menu-row-td #clearance {
   border-right: none;
   color: red;
 }
-* body .email-body .email-container .email .home-savings-row td, * body .email-body .email-container .email .home-savings-row a {
-  padding: 1.5% 0 0 0;
+* body .email-body .email-container .email .home-savings-row td {
+  padding-top: 1.9%;
+}
+* body .email-body .email-container .email .home-savings-row td a {
   text-decoration: none;
 }
-* body .email-body .email-container .email .home-savings-row td #home-title, * body .email-body .email-container .email .home-savings-row a #home-title {
+* body .email-body .email-container .email .home-savings-row td a #home-title {
   text-align: center;
   font-family: sans-serif;
   color: white;
@@ -118,67 +112,67 @@
   padding: 1% 0;
   text-transform: uppercase;
 }
-* body .email-body .email-container .email .home-savings-row td .home-container, * body .email-body .email-container .email .home-savings-row a .home-container {
+* body .email-body .email-container .email .home-savings-row td a .home-container {
   background-color: #d8dbe4;
   width: 100%;
   margin: 0 auto;
   padding-bottom: 3%;
 }
-* body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .left-sec, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .left-sec {
+* body .email-body .email-container .email .home-savings-row td a .home-container #home-coupon .left-sec {
   width: 55%;
 }
-* body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .left-sec .left, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .left-sec .left {
+* body .email-body .email-container .email .home-savings-row td a .home-container #home-coupon .left-sec .left {
   width: 100%;
   margin: 0 auto;
 }
-* body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .left-sec .left tr, * body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .left-sec .left td, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .left-sec .left tr, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .left-sec .left td {
+* body .email-body .email-container .email .home-savings-row td a .home-container #home-coupon .left-sec .left tr #home-left-td {
   padding: 8% 0 0 20%;
 }
-* body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .left-sec .left tr h3, * body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .left-sec .left td h3, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .left-sec .left tr h3, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .left-sec .left td h3 {
+* body .email-body .email-container .email .home-savings-row td a .home-container #home-coupon .left-sec .left tr #home-left-td h3 {
   font-family: sans-serif;
   color: #002f5d;
   font-size: 1.5vw;
   font-weight: 900;
 }
-* body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .left-sec .left tr h1, * body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .left-sec .left td h1, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .left-sec .left tr h1, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .left-sec .left td h1 {
+* body .email-body .email-container .email .home-savings-row td a .home-container #home-coupon .left-sec .left tr #home-left-td h1 {
   font-family: sans-serif;
   color: #002f5d;
   font-size: 8vw;
   font-weight: 900;
   line-height: 0.8;
 }
-* body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .left-sec .left tr span, * body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .left-sec .left td span, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .left-sec .left tr span, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .left-sec .left td span {
+* body .email-body .email-container .email .home-savings-row td a .home-container #home-coupon .left-sec .left tr #home-left-td span {
   font-size: 3vw;
 }
-* body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .left-sec .left tr #promo, * body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .left-sec .left td #promo, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .left-sec .left tr #promo, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .left-sec .left td #promo {
+* body .email-body .email-container .email .home-savings-row td a .home-container #home-coupon .left-sec .left tr #home-left-td #promo {
   color: black;
   padding: 5% 0 0 0;
 }
-* body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .right-sec, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .right-sec {
+* body .email-body .email-container .email .home-savings-row td a .home-container #home-coupon .right-sec {
   width: 45%;
 }
-* body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .right-sec .right, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .right-sec .right {
+* body .email-body .email-container .email .home-savings-row td a .home-container #home-coupon .right-sec .right {
   width: 80%;
   margin: 0 auto;
 }
-* body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .right-sec .right tr, * body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .right-sec .right td, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .right-sec .right tr, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .right-sec .right td {
+* body .email-body .email-container .email .home-savings-row td a .home-container #home-coupon .right-sec .right tr #home-right-td {
   padding: 10% 0 0 0;
 }
-* body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .right-sec .right tr h6, * body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .right-sec .right td h6, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .right-sec .right tr h6, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .right-sec .right td h6 {
+* body .email-body .email-container .email .home-savings-row td a .home-container #home-coupon .right-sec .right tr #home-right-td h6 {
   font-family: sans-serif;
   color: black;
   font-size: 0.8vw;
   font-weight: 900;
   text-transform: uppercase;
 }
-* body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .right-sec .right tr #excludes, * body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .right-sec .right td #excludes, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .right-sec .right tr #excludes, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .right-sec .right td #excludes {
+* body .email-body .email-container .email .home-savings-row td a .home-container #home-coupon .right-sec .right tr #home-right-td #excludes {
   font-family: sans-serif;
   color: black;
   font-size: 0.9vw;
   font-weight: 900;
   padding: 10% 0;
 }
-* body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .right-sec .right tr input, * body .email-body .email-container .email .home-savings-row td .home-container #home-coupon .right-sec .right td input, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .right-sec .right tr input, * body .email-body .email-container .email .home-savings-row a .home-container #home-coupon .right-sec .right td input {
+* body .email-body .email-container .email .home-savings-row td a .home-container #home-coupon .right-sec .right tr #home-right-td input {
   font-family: sans-serif;
   color: white;
   font-size: 1vw;
@@ -255,11 +249,11 @@
 * body .email-body .email-container .email .fine-print td a img {
   margin: -1% 0 -2%;
 }
-* body .email-body .email-container .email .luggage-savings-row td, * body .email-body .email-container .email .luggage-savings-row a {
+* body .email-body .email-container .email .luggage-savings-row td a {
   padding: 1.5% 0 0 0;
   text-decoration: none;
 }
-* body .email-body .email-container .email .luggage-savings-row td #luggage-title, * body .email-body .email-container .email .luggage-savings-row a #luggage-title {
+* body .email-body .email-container .email .luggage-savings-row td a #luggage-title {
   text-align: center;
   font-family: sans-serif;
   color: white;
@@ -269,60 +263,60 @@
   padding: 1% 0;
   text-transform: uppercase;
 }
-* body .email-body .email-container .email .luggage-savings-row td .luggage-container, * body .email-body .email-container .email .luggage-savings-row a .luggage-container {
+* body .email-body .email-container .email .luggage-savings-row td a .luggage-container {
   background-color: #d2e3d3;
   width: 100%;
   margin: 0 auto;
   padding-bottom: 3%;
 }
-* body .email-body .email-container .email .luggage-savings-row td .luggage-container #luggage-coupon .left-sec, * body .email-body .email-container .email .luggage-savings-row a .luggage-container #luggage-coupon .left-sec {
+* body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .left-sec {
   width: 55%;
 }
-* body .email-body .email-container .email .luggage-savings-row td .luggage-container #luggage-coupon .left-sec .left, * body .email-body .email-container .email .luggage-savings-row a .luggage-container #luggage-coupon .left-sec .left {
+* body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .left-sec .left {
   width: 100%;
   margin: 0 auto;
 }
-* body .email-body .email-container .email .luggage-savings-row td .luggage-container #luggage-coupon .left-sec .left tr, * body .email-body .email-container .email .luggage-savings-row td .luggage-container #luggage-coupon .left-sec .left td, * body .email-body .email-container .email .luggage-savings-row a .luggage-container #luggage-coupon .left-sec .left tr, * body .email-body .email-container .email .luggage-savings-row a .luggage-container #luggage-coupon .left-sec .left td {
+* body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .left-sec .left tr td {
   padding: 8% 0 0 20%;
 }
-* body .email-body .email-container .email .luggage-savings-row td .luggage-container #luggage-coupon .left-sec .left tr h3, * body .email-body .email-container .email .luggage-savings-row td .luggage-container #luggage-coupon .left-sec .left td h3, * body .email-body .email-container .email .luggage-savings-row a .luggage-container #luggage-coupon .left-sec .left tr h3, * body .email-body .email-container .email .luggage-savings-row a .luggage-container #luggage-coupon .left-sec .left td h3 {
+* body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .left-sec .left tr td h3 {
   font-family: sans-serif;
   color: #005552;
   font-size: 1.5vw;
   font-weight: 900;
 }
-* body .email-body .email-container .email .luggage-savings-row td .luggage-container #luggage-coupon .left-sec .left tr h1, * body .email-body .email-container .email .luggage-savings-row td .luggage-container #luggage-coupon .left-sec .left td h1, * body .email-body .email-container .email .luggage-savings-row a .luggage-container #luggage-coupon .left-sec .left tr h1, * body .email-body .email-container .email .luggage-savings-row a .luggage-container #luggage-coupon .left-sec .left td h1 {
+* body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .left-sec .left tr td h1 {
   font-family: sans-serif;
   color: #005552;
   font-size: 8vw;
   font-weight: 900;
   line-height: 0.8;
 }
-* body .email-body .email-container .email .luggage-savings-row td .luggage-container #luggage-coupon .left-sec .left tr span, * body .email-body .email-container .email .luggage-savings-row td .luggage-container #luggage-coupon .left-sec .left td span, * body .email-body .email-container .email .luggage-savings-row a .luggage-container #luggage-coupon .left-sec .left tr span, * body .email-body .email-container .email .luggage-savings-row a .luggage-container #luggage-coupon .left-sec .left td span {
+* body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .left-sec .left tr td span {
   font-size: 2vw;
 }
-* body .email-body .email-container .email .luggage-savings-row td .luggage-container #luggage-coupon .left-sec .left tr #promo, * body .email-body .email-container .email .luggage-savings-row td .luggage-container #luggage-coupon .left-sec .left td #promo, * body .email-body .email-container .email .luggage-savings-row a .luggage-container #luggage-coupon .left-sec .left tr #promo, * body .email-body .email-container .email .luggage-savings-row a .luggage-container #luggage-coupon .left-sec .left td #promo {
+* body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .left-sec .left tr td #promo {
   color: black;
   padding: 5% 0 0 0;
 }
-* body .email-body .email-container .email .luggage-savings-row td .luggage-container #luggage-coupon .right-sec, * body .email-body .email-container .email .luggage-savings-row a .luggage-container #luggage-coupon .right-sec {
+* body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .right-sec {
   width: 45%;
 }
-* body .email-body .email-container .email .luggage-savings-row td .luggage-container #luggage-coupon .right-sec .right, * body .email-body .email-container .email .luggage-savings-row a .luggage-container #luggage-coupon .right-sec .right {
+* body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .right-sec .right {
   width: 80%;
   margin: 0 auto;
 }
-* body .email-body .email-container .email .luggage-savings-row td .luggage-container #luggage-coupon .right-sec .right tr, * body .email-body .email-container .email .luggage-savings-row td .luggage-container #luggage-coupon .right-sec .right td, * body .email-body .email-container .email .luggage-savings-row a .luggage-container #luggage-coupon .right-sec .right tr, * body .email-body .email-container .email .luggage-savings-row a .luggage-container #luggage-coupon .right-sec .right td {
+* body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .right-sec .right tr, * body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .right-sec .right td {
   padding: 10% 0 0 0;
 }
-* body .email-body .email-container .email .luggage-savings-row td .luggage-container #luggage-coupon .right-sec .right tr h6, * body .email-body .email-container .email .luggage-savings-row td .luggage-container #luggage-coupon .right-sec .right td h6, * body .email-body .email-container .email .luggage-savings-row a .luggage-container #luggage-coupon .right-sec .right tr h6, * body .email-body .email-container .email .luggage-savings-row a .luggage-container #luggage-coupon .right-sec .right td h6 {
+* body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .right-sec .right tr h6, * body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .right-sec .right td h6 {
   font-family: sans-serif;
   color: black;
   font-size: 0.8vw;
   font-weight: 900;
   text-transform: uppercase;
 }
-* body .email-body .email-container .email .luggage-savings-row td .luggage-container #luggage-coupon .right-sec .right tr #excludes, * body .email-body .email-container .email .luggage-savings-row td .luggage-container #luggage-coupon .right-sec .right td #excludes, * body .email-body .email-container .email .luggage-savings-row a .luggage-container #luggage-coupon .right-sec .right tr #excludes, * body .email-body .email-container .email .luggage-savings-row a .luggage-container #luggage-coupon .right-sec .right td #excludes {
+* body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .right-sec .right tr #excludes, * body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .right-sec .right td #excludes {
   font-family: sans-serif;
   color: black;
   font-size: 0.9vw;
@@ -330,7 +324,7 @@
   padding: 7% 0;
   line-height: 2;
 }
-* body .email-body .email-container .email .luggage-savings-row td .luggage-container #luggage-coupon .right-sec .right tr input, * body .email-body .email-container .email .luggage-savings-row td .luggage-container #luggage-coupon .right-sec .right td input, * body .email-body .email-container .email .luggage-savings-row a .luggage-container #luggage-coupon .right-sec .right tr input, * body .email-body .email-container .email .luggage-savings-row a .luggage-container #luggage-coupon .right-sec .right td input {
+* body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .right-sec .right tr input, * body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .right-sec .right td input {
   font-family: sans-serif;
   color: white;
   font-size: 1vw;
