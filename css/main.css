@@ -165,6 +165,121 @@
     padding-top: 1.5% !important;
     font-size: 0.9vw !important;
   }
+  .email-container .footer td #details-title {
+    font-size: 0.9vw !important;
+  }
+}
+@media screen and (max-width: 960px) {
+  .email-container {
+    width: 641px !important;
+    margin: 0 auto !important;
+  }
+  .email-container .view-online-row #view-online-td {
+    padding: 2% 0 0 2% !important;
+  }
+  .email-container .view-online-row #view-online-td a {
+    font-size: 1vw !important;
+  }
+  .email-container .view-online-row #view-online-td #vo-span {
+    font-size: 1vw !important;
+  }
+  .email-container .title-row #title-row-td {
+    padding-left: 3% !important;
+  }
+  .email-container .title-row #title-row-td #title-row-img {
+    height: inherit !important;
+  }
+  .email-container .menu-row-a {
+    font-size: 2vw !important;
+    padding: 0 2.8% !important;
+  }
+  .email-container #home-title {
+    padding: 0.8% 0 !important;
+    font-size: 2vw !important;
+  }
+  .email-container #home-coupon .left-sec {
+    padding-top: 0 !important;
+  }
+  .email-container #home-coupon .left-sec #home-left-td {
+    padding: 6% 0 0 26% !important;
+  }
+  .email-container #home-coupon .left-sec #home-left-td h3 {
+    font-size: 2.3vw !important;
+  }
+  .email-container #home-coupon .left-sec #home-left-td h1 {
+    font-size: 10.5vw !important;
+    line-height: 1 !important;
+  }
+  .email-container #home-coupon .left-sec #home-left-td span {
+    font-size: 5vw !important;
+  }
+  .email-container #home-coupon .right-sec #home-right-td {
+    padding-top: 5% !important;
+  }
+  .email-container #home-coupon .right-sec #home-right-td #b-code {
+    width: 70% !important;
+  }
+  .email-container #home-coupon .right-sec #home-right-td #pin-code {
+    font-size: 1.2vw !important;
+    padding-top: 0.8% !important;
+  }
+  .email-container #home-coupon .right-sec #home-right-td #excludes {
+    padding: 12% 0 9% !important;
+    font-size: 1.3vw !important;
+    line-height: 1.8;
+  }
+  .email-container #home-coupon .right-sec #home-right-td input {
+    padding: 6% 10% !important;
+    font-size: 1.8vw !important;
+  }
+  .email-container .home-menu td a img {
+    width: 24.8% !important;
+  }
+  .email-container #luggage-title {
+    padding: 2% 0 1% !important;
+    font-size: 2vw !important;
+  }
+  .email-container #luggage-coupon .left-sec {
+    padding-top: 0 !important;
+  }
+  .email-container #luggage-coupon .left-sec #luggage-left-td {
+    padding: 6% 0 0 18% !important;
+  }
+  .email-container #luggage-coupon .left-sec #luggage-left-td h3 {
+    font-size: 2.3vw !important;
+  }
+  .email-container #luggage-coupon .left-sec #luggage-left-td h1 {
+    font-size: 10.5vw !important;
+    line-height: 1 !important;
+  }
+  .email-container #luggage-coupon .left-sec #luggage-left-td span {
+    font-size: 3vw !important;
+  }
+  .email-container #luggage-coupon .right-sec #luggage-right-td {
+    padding-top: 5% !important;
+  }
+  .email-container #luggage-coupon .right-sec #luggage-right-td #luggage-b-code {
+    width: 70% !important;
+  }
+  .email-container #luggage-coupon .right-sec #luggage-right-td #luggage-pin-code {
+    font-size: 1.2vw !important;
+    padding-top: 0.8% !important;
+  }
+  .email-container #luggage-coupon .right-sec #luggage-right-td #luggage-excludes {
+    padding: 12% 0 9% !important;
+    font-size: 1.3vw !important;
+    line-height: 1.8;
+  }
+  .email-container #luggage-coupon .right-sec #luggage-right-td input {
+    padding: 6% 10% !important;
+    font-size: 1.8vw !important;
+  }
+  .email-container .footer td {
+    font-size: 1.1vw !important;
+  }
+  .email-container .footer td #details-title {
+    font-size: 1.1vw !important;
+  }
 }
 * {
   margin: 0;
