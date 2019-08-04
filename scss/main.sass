@@ -96,8 +96,8 @@
                                 text-decoration: none
                                 .inside-link
                                     margin-left: -.6%
-                                .outside-link
-                                    margin-left: -.675%
+                                // .outside-link
+                                //     margin-left: -.675%
                     .summer-row
                         td 
                             a
@@ -171,7 +171,7 @@
                                             .left
                                                 +center(100%,0 auto)
                                                 tr
-                                                    td 
+                                                    #luggage-left-td 
                                                         padding: 8% 0 0 20%
                                                         h3
                                                             +text(sans-serif,$green,1.5vw,900)
@@ -180,19 +180,19 @@
                                                             line-height: .8
                                                         span
                                                             font-size: 2vw
-                                                        #promo
+                                                        #luggage-promo
                                                             color: black
                                                             padding: 5% 0 0 0
                                         .right-sec
                                             width: 45%
                                             .right
                                                 +center(80%,0 auto)
-                                                tr,td 
+                                                #luggage-right-td 
                                                     padding: 10% 0 0 0
-                                                    h6
+                                                    #luggage-pin-code
                                                         +text(sans-serif,black,.8vw,900)
                                                         text-transform: uppercase
-                                                    #excludes
+                                                    #luggage-excludes
                                                         +text(sans-serif,black,.9vw,900)
                                                         padding: 7% 0
                                                         line-height: 2
@@ -210,7 +210,7 @@
                             a
                                 text-decoration: none
                                 img 
-                                    +center(100%, -1% auto)
+                                    +center(100%, 0 auto)
                     .app-row
                         background: $gray-bg
                     .social-media
@@ -223,6 +223,14 @@
                              color: $social-media
                              font-size: 2vw
                              padding: 0 3.5%      
+                    .app-store
+                        td 
+                            .app-store-container
+                                tr 
+                                    td 
+                                        a 
+                                            img 
+                                                width: 100%
                     .footer
                         td 
                             padding: 1% 0

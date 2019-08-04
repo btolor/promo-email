@@ -52,6 +52,119 @@
     padding: 6% 10% !important;
     font-size: 1.5vw !important;
   }
+  .email-container .home-menu td a img {
+    width: 24.6% !important;
+  }
+  .email-container .home-menu td a .inside-link {
+    margin-left: 0.176% !important;
+  }
+  .email-container .summer-row img {
+    width: 100% !important;
+    margin-top: -0.4% !important;
+  }
+  .email-container .appliance-row img {
+    width: 100% !important;
+  }
+  .email-container .backtoschool img {
+    width: 100% !important;
+  }
+  .email-container .tshirts-row img {
+    margin-top: !important;
+    width: 100% !important;
+  }
+  .email-container .jeans-row img {
+    margin-top: !important;
+    width: 100% !important;
+  }
+  .email-container .kids-row img {
+    margin-top: !important;
+    width: 100% !important;
+  }
+  .email-container .shoe-sale1 img {
+    margin-top: !important;
+    width: 100% !important;
+  }
+  .email-container .shoe-sale2 img {
+    margin-top: !important;
+    width: 100% !important;
+  }
+  .email-container .fine-print img {
+    margin: 0 !important;
+    width: 100% !important;
+  }
+  .email-container .luggage-savings-row td {
+    width: 100% !important;
+  }
+  .email-container .luggage-savings-row td #luggage-title {
+    font-size: 2vw !important;
+    padding: 0.5% 0 !important;
+  }
+  .email-container .luggage-savings-row td .left-sec {
+    width: 55% !important;
+  }
+  .email-container .luggage-savings-row td .left-sec #luggage-left-td {
+    padding: 6% 0 0 26% !important;
+  }
+  .email-container .luggage-savings-row td .left-sec #luggage-left-td h3 {
+    font-size: 1.9vw !important;
+  }
+  .email-container .luggage-savings-row td .left-sec #luggage-left-td h1 {
+    font-size: 10vw !important;
+    line-height: 1 !important;
+  }
+  .email-container .luggage-savings-row td .left-sec #luggage-left-td span {
+    font-size: 3vw !important;
+  }
+  .email-container .luggage-savings-row td .left-sec #luggage-left-td #luggage-promo {
+    padding-top: 3% !important;
+  }
+  .email-container .luggage-savings-row td .right-sec {
+    width: 45% !important;
+  }
+  .email-container .luggage-savings-row td .right-sec #luggage-right-td {
+    padding-top: 10% !important;
+  }
+  .email-container .luggage-savings-row td .right-sec #luggage-right-td #luggage-b-code {
+    width: 70% !important;
+  }
+  .email-container .luggage-savings-row td .right-sec #luggage-right-td #luggage-pin-code {
+    font-size: 1vw !important;
+    padding-top: 0.8% !important;
+  }
+  .email-container .luggage-savings-row td .right-sec #luggage-right-td #luggage-excludes {
+    padding: 8% 0 !important;
+    font-size: 1.1vw !important;
+    line-height: 1.8;
+  }
+  .email-container .luggage-savings-row td .right-sec #luggage-right-td input {
+    padding: 6% 10% !important;
+    font-size: 1.5vw !important;
+  }
+  .email-container .amazon-returns td {
+    padding-top: 3% !important;
+  }
+  .email-container .amazon-returns td img {
+    width: 100% !important;
+  }
+  .email-container .app-menu {
+    width: 100% !important;
+  }
+  .email-container .app-menu td {
+    width: 25% !important;
+  }
+  .email-container .app-menu td img {
+    width: 100% !important;
+  }
+  .email-container .social-media td {
+    padding: 2% 0 !important;
+  }
+  .email-container .social-media td a {
+    font-size: 3vw !important;
+  }
+  .email-container .footer td {
+    padding-top: 1.5% !important;
+    font-size: 0.9vw !important;
+  }
 }
 * {
   margin: 0;
@@ -195,9 +308,6 @@
 * body .email-body .email-container .email .home-menu td a .inside-link {
   margin-left: -0.6%;
 }
-* body .email-body .email-container .email .home-menu td a .outside-link {
-  margin-left: -0.675%;
-}
 * body .email-body .email-container .email .summer-row td a {
   text-decoration: none;
 }
@@ -276,26 +386,26 @@
   width: 100%;
   margin: 0 auto;
 }
-* body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .left-sec .left tr td {
+* body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .left-sec .left tr #luggage-left-td {
   padding: 8% 0 0 20%;
 }
-* body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .left-sec .left tr td h3 {
+* body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .left-sec .left tr #luggage-left-td h3 {
   font-family: sans-serif;
   color: #005552;
   font-size: 1.5vw;
   font-weight: 900;
 }
-* body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .left-sec .left tr td h1 {
+* body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .left-sec .left tr #luggage-left-td h1 {
   font-family: sans-serif;
   color: #005552;
   font-size: 8vw;
   font-weight: 900;
   line-height: 0.8;
 }
-* body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .left-sec .left tr td span {
+* body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .left-sec .left tr #luggage-left-td span {
   font-size: 2vw;
 }
-* body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .left-sec .left tr td #promo {
+* body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .left-sec .left tr #luggage-left-td #luggage-promo {
   color: black;
   padding: 5% 0 0 0;
 }
@@ -306,17 +416,17 @@
   width: 80%;
   margin: 0 auto;
 }
-* body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .right-sec .right tr, * body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .right-sec .right td {
+* body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .right-sec .right #luggage-right-td {
   padding: 10% 0 0 0;
 }
-* body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .right-sec .right tr h6, * body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .right-sec .right td h6 {
+* body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .right-sec .right #luggage-right-td #luggage-pin-code {
   font-family: sans-serif;
   color: black;
   font-size: 0.8vw;
   font-weight: 900;
   text-transform: uppercase;
 }
-* body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .right-sec .right tr #excludes, * body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .right-sec .right td #excludes {
+* body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .right-sec .right #luggage-right-td #luggage-excludes {
   font-family: sans-serif;
   color: black;
   font-size: 0.9vw;
@@ -324,7 +434,7 @@
   padding: 7% 0;
   line-height: 2;
 }
-* body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .right-sec .right tr input, * body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .right-sec .right td input {
+* body .email-body .email-container .email .luggage-savings-row td a .luggage-container #luggage-coupon .right-sec .right #luggage-right-td input {
   font-family: sans-serif;
   color: white;
   font-size: 1vw;
@@ -342,7 +452,7 @@
 }
 * body .email-body .email-container .email .free-shipping td a img {
   width: 100%;
-  margin: -1% auto;
+  margin: 0 auto;
 }
 * body .email-body .email-container .email .app-row {
   background: #f0f0f0;
@@ -359,6 +469,9 @@
   color: #565656;
   font-size: 2vw;
   padding: 0 3.5%;
+}
+* body .email-body .email-container .email .app-store td .app-store-container tr td a img {
+  width: 100%;
 }
 * body .email-body .email-container .email .footer td {
   padding: 1% 0;
