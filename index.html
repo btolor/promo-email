@@ -9,6 +9,409 @@
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <!-- Link to the email's CSS, which will be inlined into the email -->
         <link rel="stylesheet" href="css/main.css">
+        <style>
+            @media screen and (min-width: 960px) {
+                .email-container {
+                    width: 960px;
+                    margin: 0 auto;
+                }
+                .email-container .view-online-row #view-online-td {
+                    padding: 1% 0 0 1% !important;
+                }
+                .email-container .title-row #title-row-img {
+                    height: 8% !important;
+                }
+                .email-container .menu-row-a {
+                    font-size: 1.8vw !important;
+                    padding: 0 4% !important;
+                }
+                .email-container #home-title {
+                    font-size: 2vw !important;
+                    padding: 0.5% 0 !important;
+                }
+                .email-container .left-sec {
+                    padding-top: 0 !important;
+                }
+                .email-container .left-sec #home-left-td {
+                    padding: 6% 0 0 26% !important;
+                }
+                .email-container .left-sec #home-left-td h3 {
+                    font-size: 1.9vw !important;
+                }
+                .email-container .left-sec #home-left-td h1 {
+                    font-size: 10vw !important;
+                    line-height: 1 !important;
+                }
+                .email-container .left-sec #home-left-td span {
+                    font-size: 5vw !important;
+                }
+                .email-container #home-right-td {
+                    padding-top: 4% !important;
+                }
+                .email-container #home-right-td #b-code {
+                    width: 70% !important;
+                }
+                .email-container #home-right-td #pin-code {
+                    font-size: 1vw !important;
+                    padding-top: 0.8% !important;
+                }
+                .email-container #home-right-td #excludes {
+                    padding: 8% 0 !important;
+                    font-size: 1.1vw !important;
+                    line-height: 1.8;
+                }
+                .email-container #home-right-td input {
+                    padding: 6% 10% !important;
+                    font-size: 1.5vw !important;
+                }
+                .email-container .home-menu td a img {
+                    width: 24.6% !important;
+                }
+                .email-container .home-menu td a .inside-link {
+                    margin-left: 0.176% !important;
+                }
+                .email-container .summer-row img {
+                    width: 100% !important;
+                    margin-top: -0.4% !important;
+                }
+                .email-container .appliance-row img {
+                    width: 100% !important;
+                }
+                .email-container .backtoschool img {
+                    width: 100% !important;
+                }
+                .email-container .tshirts-row img {
+                    margin-top: !important;
+                    width: 100% !important;
+                }
+                .email-container .jeans-row img {
+                    margin-top: !important;
+                    width: 100% !important;
+                }
+                .email-container .kids-row img {
+                    margin-top: !important;
+                    width: 100% !important;
+                }
+                .email-container .shoe-sale1 img {
+                    margin-top: !important;
+                    width: 100% !important;
+                }
+                .email-container .shoe-sale2 img {
+                    margin-top: !important;
+                    width: 100% !important;
+                }
+                .email-container .fine-print img {
+                    margin: 0 !important;
+                    width: 100% !important;
+                }
+                .email-container .luggage-savings-row td {
+                    width: 100% !important;
+                }
+                .email-container .luggage-savings-row td #luggage-title {
+                    font-size: 2vw !important;
+                    padding: 0.5% 0 !important;
+                }
+                .email-container .luggage-savings-row td .left-sec {
+                    width: 55% !important;
+                }
+                .email-container .luggage-savings-row td .left-sec #luggage-left-td {
+                    padding: 6% 0 0 26% !important;
+                }
+                .email-container .luggage-savings-row td .left-sec #luggage-left-td h3 {
+                    font-size: 1.9vw !important;
+                }
+                .email-container .luggage-savings-row td .left-sec #luggage-left-td h1 {
+                    font-size: 10vw !important;
+                    line-height: 1 !important;
+                }
+                .email-container .luggage-savings-row td .left-sec #luggage-left-td span {
+                    font-size: 3vw !important;
+                }
+                .email-container .luggage-savings-row td .left-sec #luggage-left-td #luggage-promo {
+                    padding-top: 3% !important;
+                }
+                .email-container .luggage-savings-row td .right-sec {
+                    width: 45% !important;
+                }
+                .email-container .luggage-savings-row td .right-sec #luggage-right-td {
+                    padding-top: 10% !important;
+                }
+                .email-container .luggage-savings-row td .right-sec #luggage-right-td #luggage-b-code {
+                    width: 70% !important;
+                }
+                .email-container .luggage-savings-row td .right-sec #luggage-right-td #luggage-pin-code {
+                    font-size: 1vw !important;
+                    padding-top: 0.8% !important;
+                }
+                .email-container .luggage-savings-row td .right-sec #luggage-right-td #luggage-excludes {
+                    padding: 8% 0 !important;
+                    font-size: 1.1vw !important;
+                    line-height: 1.8;
+                }
+                .email-container .luggage-savings-row td .right-sec #luggage-right-td input {
+                    padding: 6% 10% !important;
+                    font-size: 1.5vw !important;
+                }
+                .email-container .amazon-returns td {
+                    padding-top: 3% !important;
+                }
+                .email-container .amazon-returns td img {
+                    width: 100% !important;
+                }
+                .email-container .app-menu {
+                    width: 100% !important;
+                }
+                .email-container .app-menu td {
+                    width: 25% !important;
+                }
+                .email-container .app-menu td img {
+                    width: 100% !important;
+                }
+                .email-container .social-media td {
+                    padding: 2% 0 !important;
+                }
+                .email-container .social-media td a {
+                    font-size: 3vw !important;
+                }
+                .email-container .footer td {
+                    padding-top: 1.5% !important;
+                    font-size: 0.9vw !important;
+                }
+                .email-container .footer td #details-title {
+                    font-size: 0.9vw !important;
+                }
+                }
+                @media screen and (max-width: 960px) {
+                .email-container {
+                    width: 641px !important;
+                    margin: 0 auto !important;
+                }
+                .email-container .view-online-row #view-online-td {
+                    padding: 2% 0 0 2% !important;
+                }
+                .email-container .view-online-row #view-online-td a {
+                    font-size: 1vw !important;
+                }
+                .email-container .view-online-row #view-online-td #vo-span {
+                    font-size: 1vw !important;
+                }
+                .email-container .title-row #title-row-td {
+                    padding-left: 3% !important;
+                }
+                .email-container .title-row #title-row-td #title-row-img {
+                    height: inherit !important;
+                }
+                .email-container .menu-row-a {
+                    font-size: 2vw !important;
+                    padding: 0 2.8% !important;
+                }
+                .email-container #home-title {
+                    padding: 0.8% 0 !important;
+                    font-size: 2vw !important;
+                }
+                .email-container #home-coupon .left-sec {
+                    padding-top: 0 !important;
+                }
+                .email-container #home-coupon .left-sec #home-left-td {
+                    padding: 6% 0 0 26% !important;
+                }
+                .email-container #home-coupon .left-sec #home-left-td h3 {
+                    font-size: 2.3vw !important;
+                }
+                .email-container #home-coupon .left-sec #home-left-td h1 {
+                    font-size: 10.5vw !important;
+                    line-height: 1 !important;
+                }
+                .email-container #home-coupon .left-sec #home-left-td span {
+                    font-size: 5vw !important;
+                }
+                .email-container #home-coupon .right-sec #home-right-td {
+                    padding-top: 5% !important;
+                }
+                .email-container #home-coupon .right-sec #home-right-td #b-code {
+                    width: 70% !important;
+                }
+                .email-container #home-coupon .right-sec #home-right-td #pin-code {
+                    font-size: 1.2vw !important;
+                    padding-top: 0.8% !important;
+                }
+                .email-container #home-coupon .right-sec #home-right-td #excludes {
+                    padding: 12% 0 9% !important;
+                    font-size: 1.3vw !important;
+                    line-height: 1.8;
+                }
+                .email-container #home-coupon .right-sec #home-right-td input {
+                    padding: 6% 10% !important;
+                    font-size: 1.8vw !important;
+                }
+                .email-container .home-menu td a img {
+                    width: 24.5% !important;
+                }
+                .email-container .home-menu td a .inside-link {
+                    margin-left: 0 !important;
+                }
+                .email-container #luggage-title {
+                    padding: 2% 0 1% !important;
+                    font-size: 2vw !important;
+                }
+                .email-container #luggage-coupon .left-sec {
+                    padding-top: 0 !important;
+                }
+                .email-container #luggage-coupon .left-sec #luggage-left-td {
+                    padding: 6% 0 0 18% !important;
+                }
+                .email-container #luggage-coupon .left-sec #luggage-left-td h3 {
+                    font-size: 2.3vw !important;
+                }
+                .email-container #luggage-coupon .left-sec #luggage-left-td h1 {
+                    font-size: 10.5vw !important;
+                    line-height: 1 !important;
+                }
+                .email-container #luggage-coupon .left-sec #luggage-left-td span {
+                    font-size: 3vw !important;
+                }
+                .email-container #luggage-coupon .right-sec #luggage-right-td {
+                    padding-top: 5% !important;
+                }
+                .email-container #luggage-coupon .right-sec #luggage-right-td #luggage-b-code {
+                    width: 70% !important;
+                }
+                .email-container #luggage-coupon .right-sec #luggage-right-td #luggage-pin-code {
+                    font-size: 1.2vw !important;
+                    padding-top: 0.8% !important;
+                }
+                .email-container #luggage-coupon .right-sec #luggage-right-td #luggage-excludes {
+                    padding: 12% 0 9% !important;
+                    font-size: 1.3vw !important;
+                    line-height: 1.8;
+                }
+                .email-container #luggage-coupon .right-sec #luggage-right-td input {
+                    padding: 6% 10% !important;
+                    font-size: 1.8vw !important;
+                }
+                .email-container .footer td {
+                    font-size: 1.1vw !important;
+                }
+                .email-container .footer td #details-title {
+                    font-size: 1.1vw !important;
+                }
+                }
+                @media screen and (max-width: 641px) {
+                .email-container {
+                    width: 100% !important;
+                }
+                .email-container .view-online-row #view-online-td {
+                    padding: 2% 0 0 3% !important;
+                }
+                .email-container .view-online-row #view-online-td a {
+                    font-size: 1.7vw !important;
+                }
+                .email-container .view-online-row #view-online-td #vo-span {
+                    font-size: 1.7vw !important;
+                }
+                .email-container .title-row #title-row-td {
+                    padding-left: 4% !important;
+                }
+                .email-container .title-row #title-row-td #title-row-img {
+                    height: inherit !important;
+                    width: 22% !important;
+                }
+                .email-container .menu-row-a {
+                    font-size: 2.9vw !important;
+                    padding: 0 2.8% !important;
+                }
+                .email-container #home-title {
+                    padding: 1% 0 !important;
+                    font-size: 3vw !important;
+                }
+                .email-container #home-coupon .left-sec {
+                    padding-top: 0 !important;
+                }
+                .email-container #home-coupon .left-sec #home-left-td {
+                    padding: 6% 0 0 26% !important;
+                }
+                .email-container #home-coupon .left-sec #home-left-td h3 {
+                    font-size: 3.4vw !important;
+                }
+                .email-container #home-coupon .left-sec #home-left-td h1 {
+                    font-size: 14.5vw !important;
+                    line-height: 1 !important;
+                }
+                .email-container #home-coupon .left-sec #home-left-td span {
+                    font-size: 9vw !important;
+                }
+                .email-container #home-coupon .right-sec #home-right-td {
+                    padding-top: 5% !important;
+                }
+                .email-container #home-coupon .right-sec #home-right-td #b-code {
+                    width: 75% !important;
+                }
+                .email-container #home-coupon .right-sec #home-right-td #pin-code {
+                    font-size: 1.7vw !important;
+                    padding-top: 0.9% !important;
+                }
+                .email-container #home-coupon .right-sec #home-right-td #excludes {
+                    padding: 12% 0 6% !important;
+                    font-size: 1.8vw !important;
+                    line-height: 1.8;
+                }
+                .email-container #home-coupon .right-sec #home-right-td input {
+                    padding: 6% 10% !important;
+                    font-size: 2.2vw !important;
+                }
+                .email-container .home-menu td a img {
+                    width: 24.5% !important;
+                }
+                .email-container .home-menu td a .inside-link {
+                    margin-left: 0 !important;
+                }
+                .email-container #luggage-title {
+                    padding: 2% 0 1% !important;
+                    font-size: 3vw !important;
+                }
+                .email-container #luggage-coupon .left-sec {
+                    padding-top: 0 !important;
+                }
+                .email-container #luggage-coupon .left-sec #luggage-left-td {
+                    padding: 6% 0 0 18% !important;
+                }
+                .email-container #luggage-coupon .left-sec #luggage-left-td h3 {
+                    font-size: 3.4vw !important;
+                }
+                .email-container #luggage-coupon .left-sec #luggage-left-td h1 {
+                    font-size: 14.5vw !important;
+                    line-height: 1 !important;
+                }
+                .email-container #luggage-coupon .left-sec #luggage-left-td span {
+                    font-size: 6vw !important;
+                }
+                .email-container #luggage-coupon .right-sec #luggage-right-td {
+                    padding-top: 5% !important;
+                }
+                .email-container #luggage-coupon .right-sec #luggage-right-td #luggage-b-code {
+                    width: 75% !important;
+                }
+                .email-container #luggage-coupon .right-sec #luggage-right-td #luggage-pin-code {
+                    font-size: 1.7vw !important;
+                    padding-top: 0.9% !important;
+                }
+                .email-container #luggage-coupon .right-sec #luggage-right-td #luggage-excludes {
+                    padding: 12% 0 6% !important;
+                    font-size: 1.8vw !important;
+                    line-height: 1.8;
+                }
+                .email-container #luggage-coupon .right-sec #luggage-right-td input {
+                    padding: 6% 10% !important;
+                    font-size: 2.2vw !important;
+                }
+                .email-container .footer td {
+                    font-size: 1.7vw !important;
+                }
+                .email-container .footer td #details-title {
+                    font-size: 1.9vw !important;
+                }
+            }
+        </style>
     </head>
     <body>
         <!-- start of email-body -->

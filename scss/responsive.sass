@@ -1,3 +1,7 @@
+@import SASS-MIXINS
+@import variables
+
+
 +media-min(960px)
    .email-container
         +center(960px, 0 auto)
@@ -137,7 +141,6 @@
                 font-size: .9vw !important
                 #details-title
                     font-size: .9vw !important
-
 +media-max(960px)
     .email-container
         width: 641px !important
@@ -191,7 +194,9 @@
             td 
                 a 
                     img 
-                        width: 24.8% !important
+                        width: 24.5% !important
+                    .inside-link
+                        margin-left: 0 !important
         #luggage-title
             padding: 2% 0 1% !important
             font-size: 2vw !important
@@ -227,14 +232,94 @@
                 font-size: 1.1vw !important
                 #details-title
                     font-size: 1.1vw !important
-
-
-
-
-// +media-max(641px)
-//     .email-container
-//         max-width: 100% !important
-//         margin: 0 auto !important
-//         .email
-//             width: 100% !important
-//             
++media-max(641px)
+    .email-container
+        width: 100% !important   
+        .view-online-row
+            #view-online-td
+                padding: 2% 0 0 3% !important
+                a 
+                    font-size: 1.7vw !important
+                #vo-span
+                    font-size: 1.7vw !important
+        .title-row
+            #title-row-td
+                padding-left: 4% !important
+                #title-row-img
+                    height: inherit !important  
+                    width: 22% !important
+        .menu-row-a
+            font-size: 2.9vw !important
+            padding: 0 2.8% !important
+        #home-title
+            padding: 1% 0 !important
+            font-size: 3vw !important
+        #home-coupon
+            .left-sec
+                padding-top: 0 !important
+                #home-left-td 
+                    padding: 6% 0 0 26% !important
+                    h3 
+                        font-size: 3.4vw !important
+                    h1 
+                        font-size: 14.5vw !important
+                        line-height: 1 !important
+                    span
+                        font-size: 9vw !important
+            .right-sec
+                #home-right-td
+                    padding-top: 5% !important
+                    #b-code
+                        width: 75% !important
+                    #pin-code 
+                        font-size: 1.7vw !important
+                        padding-top: .9% !important
+                    #excludes
+                        padding: 12% 0 6% !important
+                        font-size: 1.8vw !important
+                        line-height: 1.8 
+                    input
+                        padding: 6% 10% !important
+                        font-size: 2.2vw !important
+        .home-menu
+                td 
+                    a 
+                        img 
+                            width: 24.5% !important
+                        .inside-link
+                            margin-left: 0 !important
+        #luggage-title
+            padding: 2% 0 1% !important
+            font-size: 3vw !important
+        #luggage-coupon
+            .left-sec
+                padding-top: 0 !important
+                #luggage-left-td 
+                    padding: 6% 0 0 18% !important
+                    h3 
+                        font-size: 3.4vw !important
+                    h1 
+                        font-size: 14.5vw !important
+                        line-height: 1 !important
+                    span
+                        font-size: 6vw !important
+            .right-sec
+                #luggage-right-td
+                    padding-top: 5% !important
+                    #luggage-b-code
+                        width: 75% !important
+                    #luggage-pin-code 
+                        font-size: 1.7vw !important
+                        padding-top: .9% !important
+                    #luggage-excludes
+                        padding: 12% 0 6% !important
+                        font-size: 1.8vw !important
+                        line-height: 1.8 
+                    input
+                        padding: 6% 10% !important
+                        font-size: 2.2vw !important
+        .footer
+            td 
+                font-size: 1.7vw !important
+                #details-title
+                    font-size: 1.9vw !important
