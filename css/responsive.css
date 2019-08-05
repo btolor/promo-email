@@ -7,7 +7,7 @@
     padding: 1% 0 0 1% !important;
   }
   .email-container .title-row #title-row-img {
-    height: 8% !important;
+    height: inherit !important;
   }
   .email-container .menu-row-a {
     font-size: 1.8vw !important;
@@ -69,23 +69,18 @@
     width: 100% !important;
   }
   .email-container .tshirts-row img {
-    margin-top: !important;
     width: 100% !important;
   }
   .email-container .jeans-row img {
-    margin-top: !important;
     width: 100% !important;
   }
   .email-container .kids-row img {
-    margin-top: !important;
     width: 100% !important;
   }
   .email-container .shoe-sale1 img {
-    margin-top: !important;
     width: 100% !important;
   }
   .email-container .shoe-sale2 img {
-    margin-top: !important;
     width: 100% !important;
   }
   .email-container .fine-print img {
@@ -134,7 +129,7 @@
   .email-container .luggage-savings-row td .right-sec #luggage-right-td #luggage-excludes {
     padding: 8% 0 !important;
     font-size: 1.1vw !important;
-    line-height: 1.8;
+    line-height: 1.8 !important;
   }
   .email-container .luggage-savings-row td .right-sec #luggage-right-td input {
     padding: 6% 10% !important;
@@ -281,7 +276,14 @@
     font-size: 1.1vw !important;
   }
   .email-container .footer td #details-title {
+    padding-left: 1% !important;
     font-size: 1.1vw !important;
+  }
+  .email-container .footer td p {
+    padding-left: 1% !important;
+  }
+  .email-container .footer td #locate {
+    padding-left: 1% !important;
   }
 }
 @media screen and (max-width: 641px) {

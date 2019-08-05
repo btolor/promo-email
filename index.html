@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
     <head>
         <!-- The character set should be utf-8 -->
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -9,8 +9,9 @@
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <!-- Link to the email's CSS, which will be inlined into the email -->
         <link rel="stylesheet" href="css/main.css">
+        <!-- <link rel="stylesheet" href="css/responsive.css"> -->
         <style>
-            @media screen and (min-width: 960px) {
+            @media screen and (min-width: 960px) { 
                 .email-container {
                     width: 960px;
                     margin: 0 auto;
@@ -19,7 +20,7 @@
                     padding: 1% 0 0 1% !important;
                 }
                 .email-container .title-row #title-row-img {
-                    height: 8% !important;
+                    height: inherit !important;
                 }
                 .email-container .menu-row-a {
                     font-size: 1.8vw !important;
@@ -81,23 +82,18 @@
                     width: 100% !important;
                 }
                 .email-container .tshirts-row img {
-                    margin-top: !important;
                     width: 100% !important;
                 }
                 .email-container .jeans-row img {
-                    margin-top: !important;
                     width: 100% !important;
                 }
                 .email-container .kids-row img {
-                    margin-top: !important;
                     width: 100% !important;
                 }
                 .email-container .shoe-sale1 img {
-                    margin-top: !important;
                     width: 100% !important;
                 }
                 .email-container .shoe-sale2 img {
-                    margin-top: !important;
                     width: 100% !important;
                 }
                 .email-container .fine-print img {
@@ -180,8 +176,8 @@
                 .email-container .footer td #details-title {
                     font-size: 0.9vw !important;
                 }
-                }
-                @media screen and (max-width: 960px) {
+            }
+            @media screen and (max-width: 960px) {
                 .email-container {
                     width: 641px !important;
                     margin: 0 auto !important;
@@ -293,10 +289,17 @@
                     font-size: 1.1vw !important;
                 }
                 .email-container .footer td #details-title {
+                    padding-left: 1% !important;
                     font-size: 1.1vw !important;
                 }
+                .email-container .footer td p {
+                    padding-left: 1% !important;
                 }
-                @media screen and (max-width: 641px) {
+                .email-container .footer td #locate {
+                    padding-left: 1% !important;
+                }
+            }
+            @media screen and (max-width: 641px) {
                 .email-container {
                     width: 100% !important;
                 }
@@ -410,7 +413,7 @@
                 .email-container .footer td #details-title {
                     font-size: 1.9vw !important;
                 }
-            }
+            } 
         </style>
     </head>
     <body>
@@ -438,7 +441,7 @@
                                     <!-- start of title-row -->
                                     <tr class="title-row">
                                         <td id="title-row-td">
-                                           <img id="title-row-img" src="images/kohl-s.svg" alt="Kohls's logo">
+                                           <img id="title-row-img" src="https://i.postimg.cc/hjGWTCt4/kohl-s.jpg" alt="Kohls's logo">
                                         </td>
                                     </tr>
                                     <!-- end of title-row -->
@@ -484,7 +487,7 @@
                                                             <table class="right" cellpadding="0" cellspacing="0" border="0">
                                                                 <tr>
                                                                     <td id="home-right-td">
-                                                                        <img id="b-code" src="images/barcode.png" alt="20%off Barcode">
+                                                                        <img id="b-code" src="https://i.postimg.cc/L6j9HbqG/barcode.png" alt="20%off Barcode">
                                                                         <h6 id="pin-code">pin 3328</h6>
                                                                         <p id="excludes">
                                                                             Excludes luggage. Ends July 24.<br>See details and exclusions below.*
@@ -507,10 +510,10 @@
                                     <tr class="home-menu">
                                         <td align="center">
                                             <a href="#">
-                                                <img src="images/bedbath-menulink.jpg" alt="bed & bath menu link" class="outside-link">
-                                                <img src="images/kitchendining-menulink.jpg" alt="kitchen dining menu link" class="inside-link">
-                                                <img src="images/furnituredecor-menulink.jpg" alt="furniture decor menu link" class="inside-link">
-                                                <img src="images/floorcare-menulink.jpg" alt="floor care menu link" class="outside-link">
+                                                <img src="https://i.postimg.cc/v8g8KBGY/bedbath-menulink.jpg" alt="bed & bath menu link" class="outside-link">
+                                                <img src="https://i.postimg.cc/DzpFjVD4/kitchendining-menulink.jpg" alt="kitchen dining menu link" class="inside-link">
+                                                <img src="https://i.postimg.cc/4drGG6XJ/furnituredecor-menulink.jpg" alt="furniture decor menu link" class="inside-link">
+                                                <img src="https://i.postimg.cc/PxFG4mCW/floorcare-menulink.jpg" alt="floor care menu link" class="outside-link">
                                             </a>
                                         </td>
                                     </tr>
@@ -520,7 +523,7 @@
                                     <tr class="summer-row">
                                         <td>
                                             <a href="#">
-                                                <img src="images/summer-sale.jpg" alt="60% 0ff summer sale">
+                                                <img src="https://i.postimg.cc/6Q9DxHRV/summer-sale.jpg" alt="60% 0ff summer sale">
                                             </a>
                                         </td>
                                     </tr>
@@ -530,7 +533,7 @@
                                     <tr class="appliance-row">
                                         <td>
                                             <a href="#">
-                                                <img src="images/appliance-sale.jpg" alt="IGLO. stainless steel mini fridge">
+                                                <img src="https://i.postimg.cc/rw2BQywP/appliance-sale.jpg" alt="IGLO. stainless steel mini fridge">
                                             </a>
                                         </td>
                                     </tr>
@@ -539,7 +542,7 @@
                                     <!-- start of backtoschool row -->
                                     <tr class="backtoschool">
                                         <td>
-                                            <a href="#"><img src="images/backtoschool.jpg" alt="Back to school"></a>
+                                            <a href="#"><img src="https://i.postimg.cc/59TdQSd1/backtoschool.jpg" alt="Back to school"></a>
                                         </td>
                                     </tr>
                                     <!-- end of backtoschool row -->
@@ -547,7 +550,7 @@
                                     <!-- start of tshirts row -->
                                     <tr class="tshirts-row">
                                         <td>
-                                            <a href="#"><img src="images/tshirt-sale.jpg" alt="$10 T-Shirts"></a>
+                                            <a href="#"><img src="https://i.postimg.cc/151SYrWB/tshirt-sale.jpg" alt="$10 T-Shirts"></a>
                                         </td>
                                     </tr>
                                     <!-- end of tshirt row -->
@@ -555,7 +558,7 @@
                                     <!-- start of jeans row -->
                                     <tr class="jeans-row">
                                         <td>
-                                            <a href="#"><img src="images/jeans-sale.jpg" alt="$25 Jeans"></a>
+                                            <a href="#"><img src="https://i.postimg.cc/Vvn8kJNX/jeans-sale.jpg" alt="$25 Jeans"></a>
                                         </td>
                                     </tr>
                                     <!-- end of jeans row -->
@@ -564,7 +567,7 @@
                                     <!-- start of kids row -->
                                     <tr class="kids-row">
                                         <td>
-                                            <a href="#"><img src="images/kids-sale.jpg" alt="$15 Tops & Bottoms"></a>
+                                            <a href="#"><img src="https://i.postimg.cc/j5WTBg0g/kids-sale.jpg" alt="$15 Tops & Bottoms"></a>
                                         </td>
                                     </tr>
                                     <!-- end of kids row -->
@@ -572,7 +575,7 @@
                                     <!-- start of shoe-sale1 row -->
                                     <tr class="shoe-sale1">
                                         <td>
-                                            <a href="#"><img src="images/shoe-sale1.jpg" alt="$49.99 & under, Athletic Shoes"></a>
+                                            <a href="#"><img src="https://i.postimg.cc/XNC38zgX/shoe-sale1.jpg" alt="$49.99 & under, Athletic Shoes"></a>
                                         </td>
                                     </tr>
                                     <!-- end of shoe-sale1 row -->
@@ -580,7 +583,7 @@
                                     <!-- start of shoe-sale2 row -->
                                     <tr class="shoe-sale2">
                                         <td>
-                                            <a href="#"><img src="images/shoes-sale2.jpg" alt="$85 & under, Athletic Shoes"></a>
+                                            <a href="#"><img src="https://i.postimg.cc/bw0KMXGN/shoes-sale2.jpg" alt="$85 & under, Athletic Shoes"></a>
                                         </td>
                                     </tr>
                                     <!-- end of shoe-sale2 row -->
@@ -588,7 +591,7 @@
                                     <!-- start of fine-print row -->
                                     <tr class="fine-print">
                                         <td>
-                                            <a href="#"><img src="images/fine-print.jpg" alt="Price Terms"></a>
+                                            <a href="#"><img src="https://i.postimg.cc/BvMRSxcr/fine-print.jpg" alt="Price Terms"></a>
                                         </td>
                                     </tr>
                                     <!-- end of fine-print row -->
@@ -622,7 +625,7 @@
                                                             <table class="right">
                                                                 <tr>
                                                                     <td id="luggage-right-td">
-                                                                        <img id="luggage-b-code" src="images/barcode.png" alt="50%off Barcode">
+                                                                        <img id="luggage-b-code" src="https://i.postimg.cc/L6j9HbqG/barcode.png" alt="50%off Barcode">
                                                                         <h6 id="luggage-pin-code">pin 6240</h6>
                                                                         <p id="luggage-excludes">
                                                                             Ends July 28.<br>See details and exclusions below.*
@@ -645,7 +648,7 @@
                                     <tr class="amazon-returns">
                                         <td>
                                             <a href="#">
-                                                <img src="images/amazon-returns.jpg" alt="Amazon.com returns at Kohl's">
+                                                <img src="https://i.postimg.cc/15FxGVsF/amazon-returns.jpg" alt="Amazon.com returns at Kohl's">
                                             </a>
                                         </td>
                                     </tr>
@@ -655,7 +658,7 @@
                                     <tr class="free-shipping">
                                         <td>
                                             <a href="#">
-                                                <img src="images/shipping.jpg" alt="Free shipping.">
+                                                <img src="https://i.postimg.cc/Kc6ch2Yn/shipping.jpg" alt="Free shipping.">
                                             </a>
                                         </td>
                                     </tr>
@@ -671,16 +674,16 @@
                                                     <!-- start of app-menu row -->
                                                     <tr class="app-menu">
                                                         <td>
-                                                            <img src="images/charge.jpg" alt="Kohl's Charge">
+                                                            <img src="https://i.postimg.cc/CdTQPJSq/charge.jpg" alt="Kohl's Charge">
                                                         </td>
                                                         <td>
-                                                            <img src="images/customer-service.jpg" alt="Customer Servcie">
+                                                            <img src="https://i.postimg.cc/1XNdrbhS/customer-service.jpg" alt="Customer Servcie">
                                                         </td>
                                                         <td>
-                                                            <img src="images/find-store.jpg" alt="Find a store">
+                                                            <img src="https://i.postimg.cc/NMFS55d5/find-store.jpg" alt="Find a store">
                                                         </td>
                                                         <td>
-                                                            <img src="images/coupons.jpg" alt="Kohl's Coupons">
+                                                            <img src="https://i.postimg.cc/RFY8f4YG/coupons.jpg" alt="Kohl's Coupons">
                                                         </td>
                                                     </tr>
                                                     <!-- end of app-menu row -->
@@ -712,12 +715,12 @@
                                                 <tr>
                                                     <td id="left-app-store-conatiner-td">
                                                         <a href="#">
-                                                            <img src="images/applestore.jpg" alt="Apple App Store">
+                                                            <img src="https://i.postimg.cc/Zn9GDCN1/applestore.jpg" alt="Apple App Store">
                                                         </a>
                                                     </td>    
                                                     <td id="left-app-store-conatiner-td">   
                                                         <a href="#">
-                                                            <img src="images/gplay.jpg" alt="Google Play Store">
+                                                            <img src="https://i.postimg.cc/GtZW0dJ9/gplay.jpg" alt="Google Play Store">
                                                         </a>
                                                     </td>
                                                 </tr>
