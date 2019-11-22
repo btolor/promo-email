@@ -1,5 +1,5 @@
 # promo-email
 A back to school promotional email...
 
-#Live demo:
+# Live demo:
  https://btolor.github.io/promo-email/
